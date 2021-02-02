@@ -1,2 +1,2 @@
-# new
-new
+# Main Academy Project
+Hello World!
