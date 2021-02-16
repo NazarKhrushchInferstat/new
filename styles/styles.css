@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: black;
+}
+.first_paragraph,
+.second_paragraph {
+  color: green;
+}
+.add_underline {
+  text-decoration: underline;
+}
+#only_one_allowed {
+  color:blueviolet;
+}
+div .first_paragraph  {
+  text-transform: uppercase;
+}
+.first_paragraph,
+.paragraph_3 {
+  text-shadow: 1px 1px 5px red;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background: url('https://www.advancedsciencenews.com/wp-content/uploads/2020/06/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg') no-repeat center center / cover ;
+
+}
+.block_1,
+.block_2  {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.block_2 {
+  background-color: red;
+}
+.block_1 {
+  background-color: rgba(141, 219, 230,.1);
+}
+h1~ p {
+  color: white !important;
+}
